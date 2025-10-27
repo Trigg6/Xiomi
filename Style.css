@@ -331,3 +331,13 @@ header {
     display: flex;
     gap: 20px;
 }
+.offer12 h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.offer12 img{
+
+    border-radius: 10px;
+}

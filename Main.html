@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xiaomi Header Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="Images/pngwing.com.png" alt="Mi Logo">
+    </div>
+
+    <div class="nav-container">
+      <nav class="left-nav">
+        <a href="#">Store</a>
+        <a href="#">Phones</a>
+        <a href="#">Tablets</a>
+        <a href="#">TV & Smart Home</a>
+        <a href="#">Smart Watch & Audio</a>
+      </nav>
+
+      <nav class="right-nav">
+        <a href="#">Discover</a>
+        <a href="#">Support</a>
+      </nav>
+    </div>
+
+    <div class="icons">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <i class="fa-regular fa-user"></i>
+    </div>
+  </header>
+  <div class="slider-container">
+    <div class="slide active">
+      <img src="Images/Xioooomi.png" alt="Xiomi Festive Deals">
+      <div class="slide-content">
+        <h1 style="color: white;">Grand Festive Deals</h1>
+        <p style="color: white;">Live Now!</p>
+        <button>Learn More</button>
+      </div>
+    </div>
+
+    <div class="slide">
+      <img src="Images/Fridge.jpg" alt="Fridge">
+      <div class="slide-content">
+        <h1 style="color: rgb(0, 0, 0);">Xiomi Smart Air Purifier</h1>
+        <p>Experience cinematic brilliance at home</p>
+        <button>Buy Now</button>
+      </div>
+    </div>
+    <button class="prev"><img class="slide-buttonig" src="Images/Left-arrow.png" alt=""></button>
+    <button class="next"><img class="slide-buttonig" src="Images/right-arrow.png" alt=""></button>
+  </div>
+
+  <!-- Script -->
+  <script src="slider.js"></script>
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-tab="bundles">Bundles</button>
+      <button class="tab" data-tab="phones">Phones</button>
+      <button class="tab" data-tab="tvs">Smart TVs</button>
+      <button class="tab" data-tab="tablets">Tablets</button>
+      <button class="tab" data-tab="lifestyle">Lifestyle</button>
+    </div>
+
+    <!-- Product sections -->
+    <div class="tab-content active" id="bundles">
+    <div class="allproductcontainer">
+      <div class="main-product">
+            <img src="Images/14 series.webp" alt="Bundles">
+            <div>
+            <h3>Mi Bundle Offer</h3>
+            <p>Everything you need in one package.</p>
+            <button class="learn-btn">Learn More</button>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product">
+            <img src="Images/X15.webp" alt="">
+            <h4>Xiaomi 15 Ultra</h4>
+            <p>₹1,09,999</p>
+            </div>
+            <div class="product">
+            <img src="Images/Redme note 14 pro.webp" alt="">
+            <h4>Redmi Note 14 Pro+ 5G</h4>
+            <p>From ₹26,999</p>
+            </div>
+            <div class="product">
+            <img src="Images/Note 14 Pro.webp" alt="">
+            <h4>Redmi Note 14 Pro 5G</h4>
+            <p>From ₹21,999</p>
+            </div>
+            <div class="product">
+            <img src="Images/Redmi a5.webp" alt="">
+            <h4>Redmi A5</h4>
+            <p>From ₹6,499</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    <!-- <div class="tab-content" id="tablets">
+      <div class="main-product">
+        <img src="tablet-banner.jpg" alt="Tablet">
+        <div>
+          <h3>Xiaomi Pad 7</h3>
+          <p>Does it all.</p>
+          <button class="learn-btn">Learn More</button>
+        </div>
+      </div>
+      <div class="product-grid">
+        <div class="product">
+          <img src="redmi-pad2.jpg" alt="">
+          <h4>Redmi Pad 2 Wi-Fi</h4>
+          <p>From ₹13,999</p>
+        </div>
+        <div class="product">
+          <img src="redmi-pad-pro5g.jpg" alt="">
+          <h4>Redmi Pad Pro 5G</h4>
+          <p>From ₹23,999</p>
+        </div>
+        <div class="product">
+          <img src="xiaomi-pad7.jpg" alt="">
+          <h4>Xiaomi Pad 7</h4>
+          <p>From ₹27,999</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="lifestyle">
+      <div class="main-product">
+        <img src="lifestyle-banner.jpg" alt="Lifestyle">
+        <div>
+          <h3>Lifestyle Products</h3>
+          <p>Style. Comfort. You - Redefined.</p>
+          <button class="learn-btn">Learn More</button>
+        </div>
+      </div>
+      <div class="product-grid">
+        <div class="product">
+          <img src="watch-move.jpg" alt="">
+          <h4>Redmi Watch Move</h4>
+          <p>₹1,799</p>
+        </div>
+        <div class="product">
+          <img src="buds6.jpg" alt="">
+          <h4>Redmi Buds 6</h4>
+          <p>₹2,799</p>
+        </div>
+        <div class="product">
+          <img src="watch5-active.jpg" alt="">
+          <h4>Redmi Watch 5 Active</h4>
+          <p>₹2,199</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="featured.js"></script> -->
+  <section class="offer">
+    <h1> Exclusive Offer</h1>
+    <div class="offer1">
+        <div class="offer12">
+            <img src="Images/Xiomi exchange.webp" alt="">
+        </div>
+        <div class="offer12">
+            <img src="Images/Power Bank.webp" alt="">
+        </div>
+        <div class="offer12">
+            <img src="Images/Audio.webp" alt="">
+        </div>
+        
+    </div>
+  </section>
+</body>
+</html>
+
+</body>
+</html>
